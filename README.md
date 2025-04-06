@@ -1,6 +1,15 @@
-#Here4Food Submission is in folder submission
+# Here4Food Submission is in folder submission
 The main dataframe is [text](submission/results_bucket_majority_vote.jsonl)
-the graded version is the autograded version 
+The graded version is the autograded version.
+
+We receive the following results on our own evaluation of the file:
+
+Evaluation summary:
+- CORRECT (A): 572
+- INCORRECT (B): 233
+- NOT_ATTEMPTED (C): 19
+- Total evaluated (A+B+C): 824
+Final accuracy: 69.42%
 
 
 

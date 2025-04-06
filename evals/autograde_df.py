@@ -105,7 +105,7 @@ def autograde_df(df_path, num_cpus=4):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Auto-grade answers in a DataFrame')
-    parser.add_argument('--df_path', type=str, default="/Users/hannesstahlin/Documents/OpenDeepSearch/output/fireworks_ai__accounts__fireworks__models__llama-v3p3-70b-instruct/codeact/frames_test_set/fireworks_ai__accounts__fireworks__models__llama-v3p3-70b-instruct__codeact__frames_test_set__trial0.jsonl", help='Path to the DataFrame JSON file')
+    parser.add_argument('--df_path', type=str, default="/Users/hannesstahlin/OpenDeepSearchHere4Food/submission/results_bucket_majority_vote.jsonl", help='Path to the DataFrame JSON file')
     parser.add_argument('--num_cpus', type=int, default=4, help='Number of CPU cores to use')
     
     args = parser.parse_args()
